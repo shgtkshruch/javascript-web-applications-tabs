@@ -1,0 +1,19 @@
+.tabs {
+  list-style: none;
+  overflow: hidden;
+  &__item {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    &.active {
+      color: red;
+    }
+  }
+}
+
+.content {
+  display: none;
+  &.active {
+    display: block;
+  }
+}

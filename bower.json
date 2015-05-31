@@ -1,0 +1,8 @@
+{
+  "name": "javascript-web-applications-tabs",
+  "private": true,
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {}
+}
