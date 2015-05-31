@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>javascript-web-applications-tabs</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="author" name="author">
+    <meta content="description" name="description">
+    <meta content="keywords" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" href="styles/style.css" media="all">
+  </head>
+  <body>
+    <ul id="js-tabs" class="tabs">
+      <li data-tab="sect1" class="tabs__item">Sect0</li>
+      <li data-tab="sect2" class="tabs__item">Sect1</li>
+      <li data-tab="sect3" class="tabs__item">Sect2</li>
+      <li data-tab="sect4" class="tabs__item">Sect3</li>
+      <li data-tab="sect5" class="tabs__item">Sect4</li>
+    </ul>
+    <div id="js-main" class="contents-container">
+      <div data-tab="sect1" class="content">Sect0 content</div>
+      <div data-tab="sect2" class="content">Sect1 content</div>
+      <div data-tab="sect3" class="content">Sect2 content</div>
+      <div data-tab="sect4" class="content">Sect3 content</div>
+      <div data-tab="sect5" class="content">Sect4 content</div>
+    </div>
+    <!-- build:js scripts/vendor.js-->
+    <!-- bower:js-->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower-->
+    <!-- endbuild-->
+    <!-- build:js scripts/main.js-->
+    <script src="scripts/script.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>
